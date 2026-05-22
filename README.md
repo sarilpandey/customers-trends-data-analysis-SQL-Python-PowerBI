@@ -141,23 +141,21 @@ This project helps businesses:
 ```bash
 Customer-Shopping-Behavior-Analysis/
 │
-├── dataset/
-│   └── customer_shopping_behavior.csv
+├── Business Problem Document.pdf
+│   
+├── Customer-Shopping-Behavior-Analysis.pdf
 │
-├── notebooks/
-│   └── customer_behavior_analysis.ipynb
+├── Customer-Shopping-Behavior-Analysis.pptx
 │
-├── dashboard/
-│   └── powerbi_dashboard.pbix
+├── Customer-Shopping-Behavior-Analysis.ipynb
 │
-├── presentation/
-│   └── project_presentation.pdf
-│
-├── images/
-│   └── dashboard_screenshots/
+├── customer_behavior_dashboard.pbix
 │
 ├── README.md
-└── requirements.txt
+│
+├── customer_behavior_sql_queries.sql
+│
+├── customer_behavior_dashboard.csv
 
  ```
 
