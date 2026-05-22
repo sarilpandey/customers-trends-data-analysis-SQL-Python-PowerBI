@@ -162,6 +162,5 @@ Customer-Shopping-Behavior-Analysis/
  ```
 
 👨‍💻 Author
-Saril Pandey
 
-Aspiring Data Analyst | Btech(CSE)
+Saril Pandey | Btech(CSE) | Aspiring Data Analyst
