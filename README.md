@@ -1,144 +1,165 @@
-📊 Customer Shopping Behavior Analysis
+# 📊 Customer Shopping Behavior Analysis
 
-An end-to-end Data Analytics Project focused on analyzing customer purchasing behavior, identifying sales trends, and solving real business problems using Python, EDA, SQL-based analysis concepts, and Power BI.
+## 🔍 Project Overview
+This project focuses on analyzing customer shopping behavior using transactional retail data to uncover meaningful business insights and customer purchasing patterns.
 
-This project demonstrates a complete real-world data analyst workflow — from raw data cleaning to business insights and dashboard reporting.
+The analysis was performed using Python for data cleaning and exploratory data analysis (EDA), followed by creating an interactive Power BI dashboard for business reporting and visualization.
 
-🚀 Project Overview
+Additionally, Gamma AI was used to create a professional project presentation summarizing the findings and recommendations.
 
-The project analyzes customer shopping behavior using transactional retail data containing 3,900 customer purchase records across multiple product categories.
+This project demonstrates a complete real-world Data Analyst workflow:
+- Data Loading
+- Data Cleaning
+- Exploratory Data Analysis
+- Business Problem Solving
+- Dashboard Development
+- Presentation & Reporting
 
-The main goal of this project is to:
+---
 
-Understand customer purchasing patterns
-Analyze spending trends
-Identify valuable customer segments
-Solve business-related analytical questions
-Build an interactive dashboard for decision-making
-📁 Dataset Information
-Details	Value
-Rows	3,900
-Columns	18
-Dataset Type	Customer Transaction Data
-Missing Values	37 missing values in Review Rating
-Key Features
-Customer Demographics
-Age
-Gender
-Location
-Subscription Status
-Purchase Details
-Item Purchased
-Category
-Purchase Amount
-Season
-Size
-Color
-Shopping Behavior
-Discount Applied
-Promo Code Used
-Previous Purchases
-Frequency of Purchases
-Review Rating
-Shipping Type
-🛠️ Technologies Used
-Python
-Pandas
-NumPy
-Matplotlib
-Seaborn
-Jupyter Notebook
-Power BI
-Gamma AI
-🔄 Project Workflow
-1️⃣ Data Loading
-Imported dataset using Pandas
-Checked dataset structure and data types
-Verified null values and duplicates
-2️⃣ Data Cleaning
-Handled missing values
-Fixed formatting inconsistencies
-Removed duplicate entries
-Cleaned categorical data
-Corrected encoding issues
-3️⃣ Exploratory Data Analysis (EDA)
+# 📁 Dataset Summary
 
-Performed detailed analysis to identify:
+| Feature | Details |
+|---|---|
+| Total Records | 3,900 |
+| Total Columns | 18 |
+| Dataset Type | Customer Transaction Data |
+| Missing Values | 37 missing values in `Review Rating` |
 
-Customer spending patterns
-Top-performing product categories
-Seasonal shopping trends
-Gender-wise purchasing behavior
-Subscription impact on sales
-Discount and promo code effectiveness
-4️⃣ Business Problem Solving
+## Dataset Includes
+### Customer Information
+- Age
+- Gender
+- Location
+- Subscription Status
 
-Solved real-world business questions such as:
+### Purchase Information
+- Item Purchased
+- Category
+- Purchase Amount
+- Season
+- Size
+- Color
 
-Which categories generate maximum revenue?
-Which customer group spends the most?
-How do discounts affect purchases?
-Which season drives the highest sales?
-Which locations contribute most to revenue?
-5️⃣ Dashboard Creation
+### Customer Shopping Behavior
+- Discount Applied
+- Promo Code Used
+- Previous Purchases
+- Frequency of Purchases
+- Review Rating
+- Shipping Type
 
-Created an interactive Power BI Dashboard featuring:
+---
 
-KPI Cards
-Revenue Analysis
-Customer Insights
-Product Performance
-Seasonal Trends
-Interactive Filters & Visualizations
-6️⃣ Presentation
+# 🛠️ Technologies Used
 
-Used Gamma AI to create a professional project presentation summarizing:
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
+- Power BI
+- Gamma AI
 
-Project objectives
-Dataset overview
-Key insights
-Dashboard findings
-Business recommendations
-📊 Key Insights
-Certain product categories contributed significantly higher sales.
-Subscription customers showed more consistent purchase behavior.
-Discounts positively influenced customer purchasing frequency.
-Seasonal trends had a strong impact on sales performance.
-Specific customer age groups generated higher overall revenue.
-💼 Business Impact
+---
 
-This analysis helps businesses:
+# ⚙️ Project Workflow
 
-Improve customer targeting
-Optimize product strategy
-Increase customer retention
-Understand seasonal demand
-Make data-driven business decisions
-📂 Project Structure
+## 1. Data Loading
+- Imported dataset into Python using Pandas
+- Checked dataset structure and column information
+- Identified null values and duplicates
+
+## 2. Data Cleaning
+- Handled missing values
+- Fixed inconsistent formatting
+- Removed duplicate records
+- Cleaned categorical data
+- Verified data quality for analysis
+
+## 3. Exploratory Data Analysis (EDA)
+Performed detailed analysis to understand:
+- Customer spending patterns
+- Product category performance
+- Seasonal sales trends
+- Gender-wise purchase behavior
+- Subscription customer analysis
+- Impact of discounts and promo codes
+
+## 4. Business Problem Solving
+Solved practical business questions such as:
+- Which product categories generate the highest revenue?
+- Which customer age group spends the most?
+- Do discounts increase purchase amounts?
+- Which seasons drive maximum sales?
+- Which locations contribute the highest revenue?
+- How does subscription status affect customer behavior?
+
+## 5. Dashboard Development
+Built an interactive Power BI dashboard containing:
+- KPI Cards
+- Revenue Analysis
+- Customer Demographics
+- Sales Trends
+- Product Performance
+- Interactive Filters and Visualizations
+
+## 6. Presentation Creation
+Created a professional project presentation using Gamma AI to present:
+- Project overview
+- Dataset summary
+- Key insights
+- Dashboard findings
+- Business recommendations
+
+---
+
+# 📊 Key Insights
+
+- Certain product categories generated significantly higher sales revenue.
+- Subscription customers showed more consistent purchasing behavior.
+- Discounts positively impacted customer purchase frequency.
+- Seasonal shopping trends strongly influenced sales performance.
+- Specific customer segments contributed higher overall revenue.
+
+---
+
+# 💼 Business Impact
+
+This project helps businesses:
+- Improve customer targeting strategies
+- Understand customer purchasing behavior
+- Optimize product and sales strategy
+- Enhance customer retention
+- Support data-driven decision making
+
+---
+
+# 📂 Project Structure
+
+```bash
 Customer-Shopping-Behavior-Analysis/
 │
 ├── dataset/
+│   └── customer_shopping_behavior.csv
+│
 ├── notebooks/
+│   └── customer_behavior_analysis.ipynb
+│
 ├── dashboard/
+│   └── powerbi_dashboard.pbix
+│
 ├── presentation/
+│   └── project_presentation.pdf
+│
 ├── images/
+│   └── dashboard_screenshots/
+│
 ├── README.md
 └── requirements.txt
-▶️ How to Run
-Install Required Libraries
-pip install pandas numpy matplotlib seaborn
-Run Jupyter Notebook
-jupyter notebook
-🎯 Skills Demonstrated
-Data Cleaning
-Exploratory Data Analysis (EDA)
-Business Analytics
-Data Visualization
-Dashboard Development
-Insight Generation
-Problem Solving
-Reporting & Presentation
-👨‍💻 Author
 
+👨‍💻 Author
 Saril Pandey
-Aspiring Data Analyst | Python | SQL | Power BI | Data Visualization
+
+Aspiring Data Analyst | Btech(CSE)
